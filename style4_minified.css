@@ -324,6 +324,8 @@ h6 a {
   .hero-area {
     padding-left: 0px !important;
     padding-right: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
   }
   .container-view {
     height: 60px;
@@ -1102,8 +1104,8 @@ h6 a {
     height: 55px !important;
   }
   .card-single img {
-    width: 90px;
-    height: 32px;
+    width: 120px;
+    height: 40px;
   }
   .para .text-sec h2 {
     font-size: 24px;
@@ -1591,7 +1593,7 @@ h6 a {
     justify-content: left;
   }
   .border-s-light {
-    border: 0;
+    border: 0 !important;
   }
 }
 .cta-btn {
