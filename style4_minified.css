@@ -316,6 +316,9 @@ h6 a {
   }
   .hero-area {
     padding: 20px 0;
+    height: 90vh;
+    display: flex;
+    align-items: center;
   }
   .container-view {
     height: 60px;
