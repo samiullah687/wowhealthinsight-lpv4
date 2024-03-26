@@ -246,12 +246,13 @@ h6 a {
   background-color: #c23559;
   color: #fff;
 }
+.hero-area-wrapper {
+  height: 100vh;
+  /* display: flex; */
+}
 .hero-area {
   padding: 100px 0;
   border-radius: 22px;
-  height: 100vh;
-  display: flex;
-  align-items: center;
 }
 .container-view {
   height: 100px;
@@ -317,8 +318,6 @@ h6 a {
   .hero-area {
     padding: 20px 0;
     height: 80vh;
-    display: flex;
-    align-items: center;
   }
   .container-view {
     height: 60px;
