@@ -249,6 +249,9 @@ h6 a {
 .hero-area {
   padding: 100px 0;
   border-radius: 22px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .container-view {
   height: 100px;
