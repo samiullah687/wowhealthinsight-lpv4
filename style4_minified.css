@@ -400,6 +400,7 @@ h6 a {
 }
 .avatar-flex {
   display: flex;
+  justify-content: center;
   margin-bottom: 25px;
 }
 .avatar-flex .avatar-img {
