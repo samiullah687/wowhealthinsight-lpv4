@@ -321,6 +321,10 @@ h6 a {
     padding: 20px 0;
     /* height: 80vh; */
   }
+  .hero-area {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
   .container-view {
     height: 60px;
     overflow: hidden;
@@ -401,6 +405,7 @@ h6 a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
   margin-right: 16px;
 }
 .form-con,
@@ -1574,6 +1579,21 @@ h6 a {
     background: none;
   }
 }
+@media (max-width: 768px) {
+  #zipcode {
+    border-radius: 0px;
+    border-color: #cd496a;
+    font-size: 1rem;
+  }
+  .form-con .btn-action {
+    margin-top: 0px;
+    border-radius: 0px;
+    justify-content: left;
+  }
+  .border-s-light {
+    border: 0;
+  }
+}
 .cta-btn {
   border-radius: 6px;
   width: 273px;
@@ -1594,21 +1614,21 @@ h6 a {
 /* responsiveness queries */
 
 .desktop-only {
-  display: none !important;
+  display: block !important;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 768px) {
   .desktop-only {
-    display: block !important;
+    display: none !important;
   }
 }
 
 .mobile-only {
-  display: block !important;
+  display: none !important;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 768px) {
   .mobile-only {
-    display: none !important;
+    display: block !important;
   }
 }
