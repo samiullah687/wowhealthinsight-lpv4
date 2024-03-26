@@ -300,9 +300,9 @@ h6 a {
   .phone-flex .phon-logo {
     height: 27px;
   }
-  .phone-flex .clltxt {
+  /* .phone-flex .clltxt {
     display: none;
-  }
+  } */
   .main-footer {
     padding-left: 5px;
     padding-right: 5px;
@@ -1104,8 +1104,8 @@ h6 a {
     height: 55px !important;
   }
   .card-single img {
-    width: 120px;
-    height: 40px;
+    width: 125px;
+    height: 42px;
   }
   .para .text-sec h2 {
     font-size: 24px;
@@ -1585,7 +1585,7 @@ h6 a {
   #zipcode {
     border-radius: 0px;
     border-color: #cd496a;
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
   .form-con .btn-action {
     margin-top: 0px;
