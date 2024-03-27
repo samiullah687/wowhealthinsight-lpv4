@@ -334,7 +334,7 @@ h6 a {
 }
 .hero-area h1 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 1299px) {
@@ -453,7 +453,7 @@ h6 a {
 .form-con .input-fil {
   width: 50%;
   height: 62px;
-  border: 1px solid lightgray;
+  border: 1px solid #595c5f;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -678,7 +678,7 @@ h6 a {
     object-fit: contain;
   }
   .card-single img {
-    width: 90px;
+    width: 102px;
     height: 40px;
   }
 }
@@ -1104,10 +1104,10 @@ h6 a {
     padding: 22px 10px;
     height: 55px !important;
   }
-  .card-single img {
+  /* .card-single img {
     width: 142px;
     height: 42px;
-  }
+  } */
   .para .text-sec h2 {
     font-size: 24px;
     margin-bottom: 8px;
