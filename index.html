@@ -245,7 +245,7 @@
                 </form>
                 <div class="mobile-only text-center">
                   <p class="mb-3" style="font-size: 17px; font-weight: 500">
-                    speak directly with a licensed agent
+                    Speak directly with a licensed agent
                   </p>
                   <a
                     class="globalFooter__telephoneNum w-100"
@@ -483,9 +483,11 @@
     <!-- /.hero-area -->
 
     <!-- States section -->
-    <section class="hero-area border-s-light m-4 para state-list desktop-only">
+    <section class="hero-area m-4 para state-list">
       <div class="container text-center">
-        <h2 class="paragraphHeader">Click your state below</h2>
+        <h2 class="paragraphHeader" style="text-transform: capitalize">
+          Click your state below
+        </h2>
         <p class="states-sub-title">To get FREE health plan quotes & save!</p>
         <div class="list-states mt-4 desktop-only">
           <ul class="states-container js-select-state">
@@ -541,81 +543,86 @@
             <li data-zip="82001">Wyoming</li>
           </ul>
         </div>
-        <div class="state-wrap mt-3 mobile-only">
-          <select
-            id="state"
-            name="state"
-            class="select-state"
-            aria-label="Select a State"
-            value="PB"
-          >
-            <option value="" selected="">SELECT YOUR STATE</option>
-            <option value="35004">Alabama</option>
-            <option value="99501">Alaska</option>
-            <option value="85001">Arizona</option>
-            <option value="71601">Arkansas</option>
-            <option value="90001">California</option>
-            <option value="80001">Colorado</option>
-            <option value="06001">Connecticut</option>
-            <option value="19901">Delaware</option>
-            <option value="32003">Florida</option>
-            <option value="30002">Georgia</option>
-            <option value="96701">Hawaii</option>
-            <option value="83201">Idaho</option>
-            <option value="60001">Illinois</option>
-            <option value="46001">Indiana</option>
-            <option value="50001">Iowa</option>
-            <option value="66002">Kansas</option>
-            <option value="40003">Kentucky</option>
-            <option value="70001">Louisiana</option>
-            <option value="03901">Maine</option>
-            <option value="20601">Maryland</option>
-            <option value="01001">Massachusetts</option>
-            <option value="48001">Michigan</option>
-            <option value="55001">Minnesota</option>
-            <option value="38601">Mississippi</option>
-            <option value="63001">Missouri</option>
-            <option value="59001">Montana</option>
-            <option value="68001">Nebraska</option>
-            <option value="89001">Nevada</option>
-            <option value="03031">New Hampshire</option>
-            <option value="07001">New Jersey</option>
-            <option value="87001">New Mexico</option>
-            <option value="10001">New York</option>
-            <option value="27006">North Carolina</option>
-            <option value="58001">North Dakota</option>
-            <option value="43001">Ohio</option>
-            <option value="73001">Oklahoma</option>
-            <option value="97001">Oregon</option>
-            <option value="15001">Pennsylvania</option>
-            <option value="02801">Rhode Island</option>
-            <option value="29001">South Carolina</option>
-            <option value="57001">South Dakota</option>
-            <option value="37010">Tennessee</option>
-            <option value="75001">Texas</option>
-            <option value="84001">Utah</option>
-            <option value="05001">Vermont</option>
-            <option value="20101">Virginia</option>
-            <option value="98001">Washington</option>
-            <option value="24701">West Virginia</option>
-            <option value="53001">Wisconsin</option>
-            <option value="82001">Wyoming</option>
-          </select>
-          <span class="select-dropdown-arrow" aria-hidden="true">
-            <img
-              loading="lazy"
-              class="icon-down-arrow"
-              src="./images/icon-down-arrow.svg"
-              alt="down arrow"
-              width="100%"
-              height="100%"
-            />
-          </span>
+        <div class="mobile-only" id="lp_state_state">
+          <div class="state-wrap mt-3 mobile-only">
+            <select
+              id="state"
+              name="state"
+              class="select-state"
+              aria-label="Select a State"
+              value="PB"
+            >
+              <option value="" selected="">SELECT YOUR STATE</option>
+              <option value="35004">Alabama</option>
+              <option value="99501">Alaska</option>
+              <option value="85001">Arizona</option>
+              <option value="71601">Arkansas</option>
+              <option value="90001">California</option>
+              <option value="80001">Colorado</option>
+              <option value="06001">Connecticut</option>
+              <option value="19901">Delaware</option>
+              <option value="32003">Florida</option>
+              <option value="30002">Georgia</option>
+              <option value="96701">Hawaii</option>
+              <option value="83201">Idaho</option>
+              <option value="60001">Illinois</option>
+              <option value="46001">Indiana</option>
+              <option value="50001">Iowa</option>
+              <option value="66002">Kansas</option>
+              <option value="40003">Kentucky</option>
+              <option value="70001">Louisiana</option>
+              <option value="03901">Maine</option>
+              <option value="20601">Maryland</option>
+              <option value="01001">Massachusetts</option>
+              <option value="48001">Michigan</option>
+              <option value="55001">Minnesota</option>
+              <option value="38601">Mississippi</option>
+              <option value="63001">Missouri</option>
+              <option value="59001">Montana</option>
+              <option value="68001">Nebraska</option>
+              <option value="89001">Nevada</option>
+              <option value="03031">New Hampshire</option>
+              <option value="07001">New Jersey</option>
+              <option value="87001">New Mexico</option>
+              <option value="10001">New York</option>
+              <option value="27006">North Carolina</option>
+              <option value="58001">North Dakota</option>
+              <option value="43001">Ohio</option>
+              <option value="73001">Oklahoma</option>
+              <option value="97001">Oregon</option>
+              <option value="15001">Pennsylvania</option>
+              <option value="02801">Rhode Island</option>
+              <option value="29001">South Carolina</option>
+              <option value="57001">South Dakota</option>
+              <option value="37010">Tennessee</option>
+              <option value="75001">Texas</option>
+              <option value="84001">Utah</option>
+              <option value="05001">Vermont</option>
+              <option value="20101">Virginia</option>
+              <option value="98001">Washington</option>
+              <option value="24701">West Virginia</option>
+              <option value="53001">Wisconsin</option>
+              <option value="82001">Wyoming</option>
+            </select>
+            <span class="select-dropdown-arrow" aria-hidden="true">
+              <img
+                loading="lazy"
+                class="icon-down-arrow"
+                src="./images/icon-down-arrow.svg"
+                alt="down arrow"
+                width="100%"
+                height="100%"
+              />
+            </span>
+          </div>
+          <button type="button" class="quote-btn" id="button1">
+            Start my quote
+          </button>
         </div>
       </div>
     </section>
 
-    <section class="para">
+    <!-- <section class="para">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12 mt-5 pt-5">
@@ -623,14 +630,10 @@
               <h2 id="paragraphHeader"></h2>
               <p id="paragraphs"></p>
             </div>
-            <!-- /.text-sec -->
           </div>
-          <!-- /.col-lg-11 -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
-    </section>
+    </section> -->
     <!-- /.para -->
 
     <!-- CTA section -->

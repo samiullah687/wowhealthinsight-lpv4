@@ -1569,7 +1569,33 @@ h6 a {
     column-count: 2 !important;
   }
 }
+.quote-btn {
+  text-transform: uppercase;
+  background-color: #cd496a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: "Montserrat", Sans-Serif;
+  font-style: normal;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+  border-radius: 6px;
+  border-style: none;
+  text-shadow: none;
+  height: 64px;
+  margin-right: auto;
+}
 
+#lp_state_state {
+  background: url(/images/world.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  padding: 3em 1rem;
+  background-size: contain;
+}
 /* CTA Section */
 .cta-section {
   /* background: url(/assets/img/male_agent.png); */

@@ -1,10 +1,12 @@
 const storeZipcode = async () => {
   const zipcodeInput = document.getElementById("zipcode");
   const zipcodeValue = zipcodeInput.value;
+  const savedZipcode = localStorage.getItem("Zipcode");
 
-  if (zipcodeValue == "") {
-    window.open("/q1.html");
-    window.location.href = "/offer.html";
+  if (zipcodeValue !== "" || savedZipcode) {
+    // window.open("/q1.html");
+    // window.location.href = "/offer.html";
+    window.location.href = "/q1.html";
     return;
   }
 
@@ -36,23 +38,23 @@ const storeZipcode = async () => {
   }
 };
 
-// const stateDropdown = document.getElementById("state");
+const stateDropdown = document.getElementById("state");
 
-// stateDropdown.addEventListener("change", function () {
-//   const stateCode = this.value;
-//   localStorage.setItem("Zipcode", stateCode);
-//   storeZipcode();
-// });
+stateDropdown.addEventListener("change", function () {
+  const stateCode = this.value;
+  localStorage.setItem("Zipcode", stateCode);
+  // storeZipcode();
+});
 
-// const statesList = document.querySelectorAll(".states-container li");
+const statesList = document.querySelectorAll(".states-container li");
 
-// statesList.forEach((state) => {
-//   state.addEventListener("click", function () {
-//     const zipCode = this.getAttribute("data-zip");
-//     localStorage.setItem("Zipcode", zipCode);
-//     storeZipcode();
-//   });
-// });
+statesList.forEach((state) => {
+  state.addEventListener("click", function () {
+    const zipCode = this.getAttribute("data-zip");
+    localStorage.setItem("Zipcode", zipCode);
+    storeZipcode();
+  });
+});
 
 const getPages = async () => {
   let data = {
