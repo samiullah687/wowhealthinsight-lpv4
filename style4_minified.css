@@ -1549,7 +1549,7 @@ h6 a {
 .select-state:focus-visible {
   outline: #cf3d62 auto 1px !important;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .list-states {
     padding: 0% 10%;
   }
