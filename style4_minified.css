@@ -325,8 +325,8 @@ h6 a {
   .hero-area {
     padding-left: 0px !important;
     padding-right: 0px !important;
-    margin-right: 0px !important;
-    margin-left: 0px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
   }
   .container-view {
     height: 60px;
