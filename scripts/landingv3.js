@@ -39,11 +39,15 @@ const storeZipcode = async () => {
 };
 
 const stateDropdown = document.getElementById("state");
+const quoteButton = document.getElementById("button2");
 
 stateDropdown.addEventListener("change", function () {
   const stateCode = this.value;
   localStorage.setItem("Zipcode", stateCode);
-  // storeZipcode();
+});
+
+quoteButton.addEventListener("click", function () {
+  storeZipcode();
 });
 
 const statesList = document.querySelectorAll(".states-container li");
